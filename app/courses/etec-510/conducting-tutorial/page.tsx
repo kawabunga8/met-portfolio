@@ -30,15 +30,14 @@ export default function ConductingTutorial() {
           <h2 className="text-2xl font-semibold text-[#B4985B] mb-6">
             The Video
           </h2>
-          <div className="relative w-full rounded-lg overflow-hidden border border-slate-200" style={{paddingBottom: '56.25%'}}>
-            <iframe
-              className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/Hzaoa12cobw"
-              title="Conducting Tutorial Video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            />
-          </div>
+          <video
+            className="w-full rounded-lg border border-slate-200"
+            controls
+            preload="metadata"
+          >
+            <source src="/etec510-conducting-tutorial.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </section>
 
         <section className="mb-12">

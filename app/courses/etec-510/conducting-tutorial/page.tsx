@@ -1,11 +1,6 @@
 export default function ConductingTutorial() {
   return (
     <div className="min-h-screen bg-cover bg-center bg-fixed" style={{backgroundImage: 'url(/StockSnap_O23H6MFZTV.jpg)'}}>
-      <header className="sticky top-0 z-50 w-full flex flex-row items-center justify-between py-6 px-8" style={{backgroundColor: '#002145'}}>
-        <a href="/" className="text-4xl font-bold text-white whitespace-nowrap hover:text-[#B4985B] transition-colors">MET ePortfolio</a>
-        <p className="text-base text-[#B4985B] text-right max-w-2xl">UBC Master of Educational Technology &middot; Shingo Kawamura</p>
-      </header>
-
       <div className="border-b border-slate-200 bg-cover bg-center" style={{backgroundImage: 'url(/StockSnap_H5CCPV9ZFQ.jpg)'}}>
         <div className="max-w-3xl mx-auto px-6 py-12">
           <div className="mb-4">

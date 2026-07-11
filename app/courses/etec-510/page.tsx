@@ -30,9 +30,28 @@ export default function Etec510() {
           <h2 className="text-2xl font-semibold text-[#B4985B] mb-6">
             Assignments
           </h2>
-          <p className="text-amber-50">
-            Assignments from this course will be added soon.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <a
+              href="/courses/etec-510/conducting-tutorial"
+              className="bg-cover bg-center rounded-lg border border-slate-200 p-6 hover:shadow-lg transition-shadow group"
+              style={{backgroundImage: 'url(/StockSnap_H5CCPV9ZFQ.jpg)'}}
+            >
+              <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-[#B4985B] transition-colors">
+                Creating an Animated Conducting Tutorial
+              </h3>
+              <p className="text-amber-50 mb-4">
+                An instructional video on conducting technique for high school students, built with an animated puppet using Adobe Illustrator, Character Animator, and ElevenLabs.
+              </p>
+              <div className="flex items-center justify-between">
+                <span className="text-sm text-amber-50/80">
+                  Video project
+                </span>
+                <span className="px-3 py-1 text-sm font-medium rounded-full text-white" style={{backgroundColor: '#002145'}}>
+                  Completed
+                </span>
+              </div>
+            </a>
+          </div>
         </div>
       </main>
     </div>

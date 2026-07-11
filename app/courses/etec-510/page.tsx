@@ -46,6 +46,26 @@ export default function Etec510() {
                 </span>
               </div>
             </a>
+            <a
+              href="/courses/etec-510/digital-detective-toolkit"
+              className="bg-cover bg-center rounded-lg border border-slate-200 p-6 hover:shadow-lg transition-shadow group"
+              style={{backgroundImage: 'url(/StockSnap_H5CCPV9ZFQ.jpg)'}}
+            >
+              <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-[#B4985B] transition-colors">
+                The Digital Detective Toolkit
+              </h3>
+              <p className="text-amber-50 mb-4">
+                A gamified critical-thinking curriculum for Grade 10 students, designed with four teammates and prototyped as a playable Unity demo.
+              </p>
+              <div className="flex items-center justify-between">
+                <span className="text-sm text-amber-50/80">
+                  Group design project
+                </span>
+                <span className="px-3 py-1 text-sm font-medium rounded-full text-white" style={{backgroundColor: '#002145'}}>
+                  Completed
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </main>

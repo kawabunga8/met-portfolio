@@ -46,6 +46,26 @@ export default function Etec500() {
                 </span>
               </div>
             </a>
+            <a
+              href="/courses/etec-500/action-research"
+              className="bg-cover bg-center rounded-lg border border-slate-200 p-6 hover:shadow-lg transition-shadow group"
+              style={{backgroundImage: 'url(/StockSnap_H5CCPV9ZFQ.jpg)'}}
+            >
+              <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-[#B4985B] transition-colors">
+                The Role and Value of Action Research
+              </h3>
+              <p className="text-amber-50 mb-4">
+                A discussion post connecting Mertler&apos;s framing of action research as teacher inquiry to rehearsal and coding cycles, kaizen, and the First Peoples Principles of Learning.
+              </p>
+              <div className="flex items-center justify-between">
+                <span className="text-sm text-amber-50/80">
+                  Fall 2025 &middot; Discussion
+                </span>
+                <span className="px-3 py-1 text-sm font-medium rounded-full text-white" style={{backgroundColor: '#002145'}}>
+                  Completed
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </main>

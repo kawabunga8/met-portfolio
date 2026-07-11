@@ -1,6 +1,20 @@
 export default function Home() {
   const courses = [
     {
+      slug: "etec-500",
+      code: "ETEC 500",
+      title: "Research Methodologies in Education",
+      term: "",
+      status: "Completed",
+    },
+    {
+      slug: "etec-510",
+      code: "ETEC 510",
+      title: "Design of Technology-Supported Learning Environments",
+      term: "",
+      status: "Completed",
+    },
+    {
       slug: "etec-565",
       code: "ETEC 565",
       title: "Ethical, Critical, and Professional Use of Generative AI in Teaching and Learning",
@@ -10,7 +24,6 @@ export default function Home() {
   ];
 
   const placeholders = [
-    { code: "Future Course", note: "Coming soon" },
     { code: "Future Course", note: "Coming soon" },
   ];
 

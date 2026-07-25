@@ -11,7 +11,7 @@ export default function Etec565() {
       title: "Evaluation Heuristic and Testing",
       description: "Can AI help me know my students better? An evaluation framework for GenAI-assisted reading of student self-reflections.",
       href: "https://etec565-portfolio.vercel.app/assignments/assignment-2",
-      status: "In Progress",
+      status: "Completed",
       date: "Summer 2026",
     },
   ];

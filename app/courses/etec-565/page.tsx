@@ -26,7 +26,7 @@ export default function Etec565() {
             </a>
           </div>
           <h1 className="text-4xl font-bold text-white mb-4">
-            ETEC 565
+            ETEC 565T
           </h1>
           <p className="text-amber-50 mb-2">
             Ethical, Critical, and Professional Use of Generative AI in Teaching and Learning

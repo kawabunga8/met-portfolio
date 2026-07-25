@@ -16,7 +16,7 @@ export default function Home() {
     },
     {
       slug: "etec-565",
-      code: "ETEC 565",
+      code: "ETEC 565T",
       title: "Ethical, Critical, and Professional Use of Generative AI in Teaching and Learning",
       term: "Summer 2026",
       status: "In Progress",

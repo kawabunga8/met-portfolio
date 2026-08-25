@@ -32,7 +32,7 @@ export default function Etec565() {
             Ethical, Critical, and Professional Use of Generative AI in Teaching and Learning
           </p>
           <p className="text-sm text-amber-50/80">
-            Summer Institute 2026 &middot; Instructors: Dr. Sam McCready &amp; Dr. Jen Jenson
+            Summer Institute 2026 &middot; Instructors: Dr. Sam McCready &amp; Dr. Jen Jenson &middot; Completed
           </p>
         </div>
       </div>
